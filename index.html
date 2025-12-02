@@ -5,62 +5,30 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Thomas Todaro — Working Portfolio</title>
   <link rel="stylesheet" href="style.css">
-    <style>
-        header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 40px 20px;
-        }
-        .header-left h1, .header-left h2 {
-            margin: 0;
-            text-align: left;
-        }
-        .header-image img {
-            max-height: 180px;
-            width: auto;
-            display: block;
-            margin: 0 auto;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            padding: 0;
-        }
-        nav a {
-            text-decoration: none;
-            font-weight: 600;
-        }
-    </style>
 </head>
-
 <body>
-  <header>
-        <div class="header-left">
-            <h1>Your Name</h1>
-            <h2>Mechanical and Aerospace Engineer</h2>
-        </div>
-        <div class="header-image">
-            <!-- Insert your image or GIF here -->
-            <img src="assets/header.gif" alt="Header Graphic" />
-        </div>
-    </header>i><a href="#resume">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+  <header class="site-header">
+    <div class="wrap header-flex">
+      <div class="header-text">
+        <h1>Thomas Todaro</h1>
+        <p class="sub">Mechanical & Aerospace Engineer</p>
+        <nav>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <img src="assets/header_graphic.png" alt="Header Graphic" class="header-graphic">
     </div>
   </header>
 
   <main class="wrap">
-
     <section id="hero" class="hero">
       <img src="assets/headshotsuit.png" alt="headshot" class="headshot">
       <div>
-        <h2>Bio</h2>
-        <p>Masters Candidate graduating in May 2026 studying Mechanical Engineering with a heavy focus in Aerospace Engineering. 
-           Please see my recent projects and internship experiences below.</p>
+        <h2>Bio:</h2>
+        <p>Masters Candidate graduating in May 2026 studying Mechanical Engineering with a heavy focus in Aerospace Engineering. Please see my recent projects and internship experiences below.</p>
       </div>
     </section>
 
@@ -72,13 +40,11 @@
           <p>Numerical orbit propagation, Lambert solver, mission trade study (Python/MATLAB).</p>
           <a class="btn" href="assets/astrodynamics_report.pdf" target="_blank">Open report</a>
         </article>
-
         <article class="card">
           <h3>GNC: Attitude Control System</h3>
           <p>Quaternion-based attitude control, state-space estimation, hardware-in-the-loop testing.</p>
           <a class="btn" href="assets/controls_report.pdf" target="_blank">Open report</a>
         </article>
-
         <article class="card">
           <h3>Propulsion: Thruster Test & Analysis</h3>
           <p>Test data reduction, nozzle performance, thermal integration (summary + code appendices).</p>
@@ -96,58 +62,47 @@
       </ul>
       <p><a class="btn" href="experience.html">View Full Experience</a></p>
     </section>
-
-    <section id="resume">
-      <h2>Resume</h2>
-      <div id="pdf-container" style="width:100%; height:auto;"></div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Phone: +1 862-324-6131</p>
-      <p>Email: <a href="mailto:tomtodaro219@gmail.com">tomtodaro219@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/thomas-todaro-9a8b46240/" target="_blank">Thomas Jakob Todaro</a></p>
-    </section>
-
   </main>
+
+  <section id="resume" class="wrap">
+    <h2>Resume</h2>
+    <div id="pdf-container" style="width:100%; height:auto;"></div>
+  </section>
+
+  <section id="contact" class="wrap">
+    <h2>Contact</h2>
+    <p>Phone Number: +1 862-324-6131</p>
+    <p>Email: <a href="mailto:tomtodaro219@gmail.com">tomtodaro219@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/thomas-todaro-9a8b46240/" target="_blank">Thomas Jakob Todaro</a></p>
+  </section>
 
   <footer class="site-footer">
     <div class="wrap">© 2025 Thomas Todaro Working Portfolio</div>
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
-
+  <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
   <script>
     const url = 'assets/Resume_ThomasTodaro_A.pdf';
-
-    pdfjsLib.GlobalWorkerOptions.workerSrc =
-      "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://mozilla.github.io/pdf.js/build/pdf.worker.js';
 
     pdfjsLib.getDocument(url).promise.then(pdf => {
       const container = document.getElementById('pdf-container');
-
       for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
         pdf.getPage(pageNum).then(page => {
           const scale = 1.5;
           const viewport = page.getViewport({ scale });
 
-          const canvas = document.createElement("canvas");
-          const context = canvas.getContext("2d");
+          const canvas = document.createElement('canvas');
+          const context = canvas.getContext('2d');
 
-          canvas.width = viewport.width;
           canvas.height = viewport.height;
+          canvas.width = viewport.width;
 
           container.appendChild(canvas);
-
-          page.render({
-            canvasContext: context,
-            viewport: viewport
-          });
+          page.render({ canvasContext: context, viewport: viewport });
         });
       }
     });
   </script>
-
 </body>
 </html>
