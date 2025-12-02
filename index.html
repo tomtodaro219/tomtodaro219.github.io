@@ -78,11 +78,13 @@
     <div class="wrap">© 2025 Thomas Todaro Working Portfolio</div>
   </footer>
   
-  <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
+
    <!-- PDF rendering script -->
   <script>
     const url = 'assets/Resume_ThomasTodaro_A.pdf';
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://mozilla.github.io/pdf.js/build/pdf.worker.js';
+    pdfjsLib.GlobalWorkerOptions.workerSrc =  "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";;
 
     pdfjsLib.getDocument(url).promise.then(pdf => {
       const container = document.getElementById('pdf-container');
