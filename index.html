@@ -1,4 +1,4 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -6,7 +6,9 @@
   <title>Thomas Todaro — Working Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <!-- HEADER -->
   <header class="site-header">
     <div class="wrap">
       <h1>Thomas Todaro</h1>
@@ -18,24 +20,30 @@
     </div>
   </header>
 
+  <!-- MAIN CONTENT -->
   <main class="wrap">
+
+    <!-- HERO -->
     <section id="hero" class="hero">
       <img src="assets/headshotsuit.png" alt="headshot" class="headshot">
       <div>
-        <h2>Bio:</h2>
-        <p>Masters Candidate graduating in May 2026 studying Mechanical Engineering with a heavy focus in Aerospace Engineering. Please see my recent projects and internship experiences below.</p>
+        <h2>Bio</h2>
+        <p>Masters Candidate graduating in May 2026 studying Mechanical Engineering with a heavy focus in Aerospace Engineering. 
+           Please see my recent projects and internship experiences below.</p>
       </div>
     </section>
 
+    <!-- HIGHLIGHTED PROJECTS -->
     <section id="projects">
       <h2>Highlighted Projects</h2>
+
       <div class="grid">
+
         <article class="card">
           <h3>Astrodynamics: Mission Analysis</h3>
           <p>Numerical orbit propagation, Lambert solver, mission trade study (Python/MATLAB).</p>
           <a class="btn" href="assets/astrodynamics_report.pdf" target="_blank">Open report</a>
         </article>
-        
 
         <article class="card">
           <h3>GNC: Attitude Control System</h3>
@@ -48,43 +56,55 @@
           <p>Test data reduction, nozzle performance, thermal integration (summary + code appendices).</p>
           <a class="btn" href="assets/propulsion_report.pdf" target="_blank">Open report</a>
         </article>
+
       </div>
+
       <p><a class="btn" href="projects.html">View All Projects</a></p>
     </section>
-        <section id="experience">
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
       <h2>Experience</h2>
+
       <ul>
         <li><strong>Propulsion Intern — Company</strong> — Component testing, data analysis, modeling.</li>
         <li><strong>Controls Research — University Lab</strong> — Simulation, controller design.</li>
       </ul>
+
       <p><a class="btn" href="experience.html">View Full Experience</a></p>
     </section>
-  </main>
-        
+
+    <!-- RESUME SECTION -->
     <section id="resume">
       <h2>Resume</h2>
       <div id="pdf-container" style="width:100%; height:auto;"></div>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact">
       <h2>Contact</h2>
-      <p>Phone Number: +1 862-324-6131</p>
+      <p>Phone: +1 862-324-6131</p>
       <p>Email: <a href="mailto:tomtodaro219@gmail.com">tomtodaro219@gmail.com</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/thomas-todaro-9a8b46240/" target="_blank">Thomas Jakob Todaro</a></p>
-      
     </section>
 
+  </main>
+
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="wrap">© 2025 Thomas Todaro Working Portfolio</div>
   </footer>
-  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
 
-   <!-- PDF rendering script -->
+  <!-- PDF.js (updated working version) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
+
+  <!-- PDF Rendering -->
   <script>
     const url = 'assets/Resume_ThomasTodaro_A.pdf';
-    pdfjsLib.GlobalWorkerOptions.workerSrc =  "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";;
+
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
 
     pdfjsLib.getDocument(url).promise.then(pdf => {
       const container = document.getElementById('pdf-container');
@@ -92,12 +112,13 @@
       for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
         pdf.getPage(pageNum).then(page => {
           const scale = 1.5;
-          const viewport = page.getViewport({scale});
+          const viewport = page.getViewport({ scale });
 
-          const canvas = document.createElement('canvas');
-          const context = canvas.getContext('2d');
-          canvas.height = viewport.height;
+          const canvas = document.createElement("canvas");
+          const context = canvas.getContext("2d");
+
           canvas.width = viewport.width;
+          canvas.height = viewport.height;
 
           container.appendChild(canvas);
 
@@ -109,5 +130,6 @@
       }
     });
   </script>
+
 </body>
 </html>
