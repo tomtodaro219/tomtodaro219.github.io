@@ -32,11 +32,22 @@ body {
   align-items: flex-start;
   padding: 10px 0;
 }
+.header-contact a {
+  color: #cfe1f5 !important;   /* light header text color */
+  text-decoration: none;
+}
 
+.header-contact a:hover {
+  text-decoration: underline;
+  color: #ffffff !important;   /* optional hover effect */
+}
 .header-contact {
   text-align: right;
   font-size: 14px;
   line-height: 1.35;
+}
+.header-contact {
+  margin-left: -20px;
 }
 
 .header-contact a {
