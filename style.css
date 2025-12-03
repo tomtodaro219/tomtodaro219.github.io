@@ -18,16 +18,21 @@ body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:#e5e8ec;co
 .site-header .sub{margin:4px 0 12px;color:#9fb7d6}
 .site-header nav a{color:#9ecae1;margin-right:16px;text-decoration:none;font-weight:600}
 .hero{display:flex;gap:20px;align-items:center;margin:24px 0}
+/* Header container aligns with white content width */
 .header-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Header image alignment and sizing */
 .header-graphic {
-  max-width: 520px; /* adjust as needed */
-  height: auto;
+  height: 90px;                /* adjust as needed */
+  object-fit: cover;
+  margin-left: 20px;           /* ~0.25 inch spacing from nav */
+  border-radius: 4px;          /* optional for clean edges */
 }
+
 
 .headshot{width:200px;border-radius:8px;object-fit:cover;box-shadow:0 4px 14px rgba(5,10,20,0.12)}
 h2{margin:6px 0 12px}
