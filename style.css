@@ -7,7 +7,18 @@ body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:#e5e8ec;co
 .site-header .sub{margin:4px 0 12px;color:#9fb7d6}
 .site-header nav a{color:#9ecae1;margin-right:16px;text-decoration:none;font-weight:600}
 .hero{display:flex;gap:20px;align-items:center;margin:24px 0}
-.headshot{width:140px;border-radius:8px;object-fit:cover;box-shadow:0 4px 14px rgba(5,10,20,0.12)}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-graphic {
+  max-width: 260px; /* adjust as needed */
+  height: auto;
+}
+
+.headshot{width:200px;border-radius:8px;object-fit:cover;box-shadow:0 4px 14px rgba(5,10,20,0.12)}
 h2{margin:6px 0 12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin:12px 0}
 .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 3px 10px rgba(10,20,30,0.06)}
