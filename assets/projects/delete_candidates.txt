@@ -1,0 +1,88 @@
+AA456_Project1_TJT_p12_img0.png	1311x390	27119	3.36	626	1.61	extreme aspect;low entropy
+AA456_Project1_TJT_p13_img0.png	521x599	25937	0.87	174	1.61	low entropy
+AA456_Project1_TJT_p4_img0.png	712x555	176780	1.28	18135	2.75	low entropy
+AA456_Project1_TJT_p5_img0.png	558x307	43001	1.82	8818	2.42	low entropy
+AA456_Project1_TJT_p6_img0.png	983x396	85126	2.48	15184	2.38	low entropy
+AA456_Project1_TJT_p7_img0.png	1311x453	20963	2.89	1082	1.42	low entropy
+AA456_Project1_TJT_p8_img0.png	1098x343	9110	3.2	88	1.28	extreme aspect;low entropy
+AA456_Project1_TJT_p8_img1.png	1098x343	15043	3.2	588	1.38	extreme aspect;low entropy
+AA456_Project2_TJT-compressed_p14_img12.png	723x495	310633	1.46	12467	3.79	low entropy
+AA456_Project2_TJT-compressed_p3_img1.png	443x585	204072	0.76	28300	3.59	low entropy
+AA456_Project3_TJT_p6_img0.png	683x370	28793	1.85	1404	1.3	low entropy
+AA456_Project3_TJT_p7_img0.png	587x365	21321	1.61	685	0.5	low entropy
+AA456_Project3_TJT_p8_img0.png	660x517	16918	1.28	168	0.68	low entropy
+AA456_Project3_TJT_p9_img0.png	659x514	16371	1.28	166	0.62	low entropy
+FEA_Project_TJT_p1_img0.png	443x115	10810	3.85	256	1.53	small dimension;extreme aspect;low entropy
+FEA_Project_TJT_p2_img0.png	443x115	10810	3.85	256	1.53	small dimension;extreme aspect;low entropy
+FEA_Project_TJT_p2_img1.png	745x639	22493	1.17	244	0.52	low entropy
+FinalReport_TJT_p2_img0.png	895x764	67635	1.17	54	1.54	low entropy
+FinalReport_TJT_p3_img0.png	613x455	46482	1.35	7743	0.77	low entropy
+FinalReport_TJT_p4_img0.png	1477x816	22420	1.81	219	0.13	low entropy
+FinalReport_TJT_p4_img1.png	690x375	16346	1.84	468	1.91	low entropy
+ME321 Design Project_p10_img0.png	850x516	132686	1.65	256	3.3	low entropy
+ME321 Design Project_p11_img0.png	173x176	3442	0.98	209	0.69	small dimension;low entropy
+ME321 Design Project_p12_img0.png	153x158	539	0.97	1	-0.0	small dimension;low color count
+ME321 Design Project_p13_img0.png	535x750	36266	0.71	73	1.35	low entropy
+ME321 Design Project_p13_img1.png	266x73	2082	3.64	63	1.28	small dimension;extreme aspect;low entropy
+ME321 Design Project_p13_img2.png	438x94	4160	4.66	72	1.31	small dimension;extreme aspect;low entropy
+ME321 Design Project_p14_img0.png	957x714	19897	1.34	53	0.29	low entropy
+ME321 Design Project_p14_img1.png	958x714	21156	1.34	52	0.29	low entropy
+ME321 Design Project_p15_img0.png	957x713	28492	1.34	170	0.48	low entropy
+ME321 Design Project_p15_img1.png	958x713	29264	1.34	172	0.48	low entropy
+ME321 Design Project_p16_img0.png	955x712	20917	1.34	69	0.34	low entropy
+ME321 Design Project_p16_img1.png	957x714	22072	1.34	71	0.35	low entropy
+ME321 Design Project_p17_img0.png	840x630	32320	1.33	201	0.54	low entropy
+ME321 Design Project_p18_img0.png	840x630	32197	1.33	204	0.53	low entropy
+ME321 Design Project_p18_img1.png	1178x886	37378	1.33	201	0.25	low entropy
+ME321 Design Project_p19_img0.png	1133x886	38956	1.28	203	0.26	low entropy
+ME321 Design Project_p1_img0.png	294x379	67087	0.78	3541	3.46	low entropy
+ME321 Design Project_p20_img0.png	840x630	32125	1.33	200	0.54	low entropy
+ME321 Design Project_p20_img1.png	840x630	32182	1.33	201	0.53	low entropy
+ME321 Design Project_p21_img0.png	1130x886	37228	1.28	202	0.25	low entropy
+ME321 Design Project_p21_img1.png	1133x886	38815	1.28	201	0.26	low entropy
+ME321 Design Project_p5_img0.png	547x262	4246	2.09	294	1.38	low entropy
+ME321 Design Project_p7_img0.png	750x133	12216	5.64	247	0.66	small dimension;extreme aspect;low entropy
+ME321 Design Project_p9_img0.png	179x186	565	0.96	1	-0.0	small dimension;low color count
+ME343DesignProjectTJT_p11_img0.png	283x59	1761	4.8	43	0.91	small dimension;extreme aspect;low entropy
+ME343DesignProjectTJT_p11_img1.png	521x416	10779	1.25	311	0.47	low entropy
+ME343DesignProjectTJT_p13_img0.png	596x461	10367	1.29	166	0.32	low entropy
+ME343DesignProjectTJT_p14_img0.png	363x339	3568	1.07	36	0.3	low entropy
+ME343DesignProjectTJT_p15_img0.png	636x497	11759	1.28	163	0.32	low entropy
+ME343DesignProjectTJT_p15_img1.png	345x74	1464	4.66	36	0.43	small dimension;extreme aspect;low entropy
+ME343DesignProjectTJT_p16_img0.png	850x110	4567	7.73	46	0.62	small dimension;extreme aspect;low entropy
+ME343DesignProjectTJT_p16_img1.png	544x431	9340	1.26	163	0.33	low entropy
+ME343DesignProjectTJT_p17_img0.png	537x427	9292	1.26	164	0.35	low entropy
+ME343DesignProjectTJT_p18_img0.png	555x432	9063	1.28	161	0.37	low entropy
+ME343DesignProjectTJT_p19_img0.png	1013x280	41362	3.62	313	1.46	extreme aspect;low entropy
+ME343DesignProjectTJT_p19_img1.png	491x141	83332	3.48	13550	4.44	small dimension;extreme aspect
+ME343DesignProjectTJT_p20_img0.png	742x531	19101	1.4	376	1.01	low entropy
+ME343DesignProjectTJT_p21_img0.png	738x525	27240	1.41	551	1.46	low entropy
+ME343DesignProjectTJT_p22_img0.png	543x712	26455	0.76	218	0.82	low entropy
+ME343DesignProjectTJT_p23_img0.png	499x680	22891	0.73	198	0.77	low entropy
+ME343DesignProjectTJT_p24_img0.png	514x582	16623	0.88	164	0.71	low entropy
+ME343DesignProjectTJT_p25_img0.png	504x608	17293	0.83	182	0.66	low entropy
+ME343DesignProjectTJT_p2_img0.png	870x725	229846	1.2	256	2.46	low entropy
+ME343DesignProjectTJT_p4_img0.png	307x97	2103	3.16	39	0.65	small dimension;extreme aspect;low entropy
+ME343DesignProjectTJT_p4_img1.png	451x347	6540	1.3	49	0.49	low entropy
+ME343DesignProjectTJT_p5_img0.png	453x344	6885	1.32	54	0.51	low entropy
+ME343DesignProjectTJT_p6_img0.png	446x343	8320	1.3	124	0.64	low entropy
+ME343DesignProjectTJT_p6_img1.png	456x344	9368	1.33	121	0.64	low entropy
+ME343DesignProjectTJT_p7_img0.png	633x529	12951	1.2	289	0.45	low entropy
+ME343DesignProjectTJT_p8_img0.png	655x527	12535	1.24	297	0.43	low entropy
+ME343DesignProjectTJT_p9_img0.png	436x345	8330	1.26	58	0.69	low entropy
+ME343DesignProjectTJT_p9_img1.png	663x531	28373	1.25	899	0.97	low entropy
+ME356_Project1_TJT_p1_img0.png	502x540	17668	0.93	164	0.72	low entropy
+ME356_Project1_TJT_p1_img1.png	279x159	3084	1.75	201	1.37	small dimension;low entropy
+ME356_Project1_TJT_p2_img0.png	689x395	15006	1.74	470	1.84	low entropy
+ME356_Project1_TJT_p2_img2.png	903x87	8018	10.38	113	2.58	small dimension;extreme aspect;low entropy
+ME356_Project1_TJT_p3_img0.png	652x555	32288	1.17	2577	0.42	low entropy
+ME356_Project2_TJT_p1_img0.png	1118x668	51110	1.67	371	1.2	low entropy
+ME356_Project2_TJT_p2_img0.png	476x62	3033	7.68	77	1.17	small dimension;extreme aspect;low entropy
+ME356_Project2_TJT_p2_img1.png	655x482	15299	1.36	230	0.98	low entropy
+ME356_Project2_TJT_p3_img0.png	635x687	33250	0.92	226	1.4	low entropy
+ME356_Project2_TJT_p4_img0.png	578x314	23780	1.84	2474	0.65	low entropy
+ME356_Project2_TJT_p4_img1.png	231x422	8474	0.55	204	1.49	low entropy
+ME356_Project2_TJT_p5_img0.png	1079x773	27099	1.4	195	0.13	low entropy
+ME356_Project2_TJT_p5_img1.png	1249x813	80227	1.54	374	0.37	low entropy
+ME356_Project2_TJT_p6_img0.png	520x85	3505	6.12	73	1.01	small dimension;extreme aspect;low entropy
+ManufacturingIM.png	1717x1056	135005	1.63	13920	1.55	low entropy
