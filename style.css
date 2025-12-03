@@ -20,7 +20,7 @@ body {
   padding: 28px;
 }
 
-.site-header{background:var(--dark);color:#fff;padding:20px 0 0px 0}
+.site-header{background:var(--dark);color:#fff;padding:10px 0 0px 0}
 .site-header h1{margin:0;font-size:26px}
 .site-header .sub{margin:4px 0 12px;color:#9fb7d6}
 .site-header nav a{color:#9ecae1;margin-right:16px;text-decoration:none;font-weight:600}
