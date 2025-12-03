@@ -34,9 +34,9 @@ body {
 
 /* Header image alignment and sizing */
 .header-graphic {
-  height: 90px;                /* adjust as needed */
+  height: 110px;                /* adjust as needed */
   object-fit: cover;
-  margin-left: 20px;           /* ~0.25 inch spacing from nav */
+  margin-left: 10px;           /* ~0.25 inch spacing from nav */
   border-radius: 4px;          /* optional for clean edges */
 }
 
