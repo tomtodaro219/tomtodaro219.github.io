@@ -29,16 +29,26 @@ body {
 .header-flex {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  padding: 10px 0;
 }
 
-/* Header image alignment and sizing */
-.header-graphic {
-  height: 110px;                /* adjust as needed */
-  object-fit: cover;
-  margin-left: 10px;           /* ~0.25 inch spacing from nav */
-  border-radius: 4px;          /* optional for clean edges */
+.header-contact {
+  text-align: right;
+  font-size: 14px;
+  line-height: 1.35;
 }
+
+.header-contact a {
+  color: #9ecae1;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header-contact p {
+  margin: 2px 0;
+}
+
 
 
 .headshot{width:200px;border-radius:8px;object-fit:cover;box-shadow:0 4px 14px rgba(5,10,20,0.12)}
