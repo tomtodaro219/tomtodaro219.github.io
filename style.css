@@ -111,6 +111,26 @@ h3 {
   color: var(--dark);
 }
 
+#experience .home-exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+#experience .home-exp-heading {
+  font-size: 1.05em;
+  font-weight: 800;
+  margin: 0;
+}
+
+#experience .home-exp-title {
+  font-size: 0.98em;
+  font-weight: 600;
+  margin: 4px 0 0 0;
+}
+
 
 .grid {
   display: grid;
@@ -164,7 +184,8 @@ h3 {
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(10,20,30,0.06);
   color: var(--dark);
-  height: 220px;
+  height: auto;
+  min-height: 260px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -177,7 +198,7 @@ h3 {
 }
 #projects .card {
   height: auto;
-  min-height: 220px;
+  min-height: 260px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -193,7 +214,6 @@ h3 {
   color: var(--dark);
   flex-grow: 1;
   margin: 0 0 10px 0;
-  overflow: hidden;
 }
 
 .btn {
