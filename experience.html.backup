@@ -7,12 +7,12 @@
 <title>Projects — Thomas Todaro</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="page-projects">
+<body class="page-experience">
 <header class="site-header">
   <div class="wrap header-flex">
     <div class="header-text">
-      <h1>Projects</h1>
-      <p class="sub">Technical Reports Completed at Lehigh University</p>
+      <h1>Experience</h1>
+      <p class="sub">Engineering Internships</p>
       <nav>
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
@@ -31,54 +31,50 @@
 </header>
 
 
-<main class="wrap content-box">
+<main class="wrap">
 <h2>Project Portfolio</h2>
 
 <div class="project-group">
   <h3>Astrodynamics & Orbital Mechanics</h3>
   <p>A comprehensive series of advanced studies in orbital mechanics, trajectory design, and space mission analysis. These projects apply theoretical concepts to practical space vehicle design and mission planning problems.</p>
-  
-  <div class="carousel-container">
-    <div class="carousel" id="astro-carousel">
-      <img src="assets/projects/ManufacturingIM.png" alt="Astrodynamics Visualization" class="carousel-image">
-    </div>
-    <button class="carousel-button prev" onclick="changeAstroSlide(-1)">&#10094;</button>
-    <button class="carousel-button next" onclick="changeAstroSlide(1)">&#10095;</button>
-  </div>
-
-  <div class="grid">
+  <div class="grid-with-carousel">
     <article class="card">
-      <h4>Commercial Satellite Constellation Design: Fire Watch</h4>
-      <p>Designed a commercial satellite constellation for NOAA, Department of Interior, and FEMA for wildfire detection and monitoring. Comprehensive system architecture analysis including orbital mechanics, performance metrics, and budget optimization for operational deployment.</p>
+      <h4>Project 1: Trajectory Design</h4>
+      <p>Advanced orbital mechanics analysis. Numerical methods applied to space vehicle trajectory design and mission planning.</p>
       <a class="btn" href="assets/projects/AA456_Project1_TJT.pdf" target="_blank">Open Report</a>
     </article>
 
+    <div class="carousel-container">
+      <div class="carousel" id="astro-carousel">
+        <img src="assets/projects/ManufacturingIM.png" alt="Astrodynamics Visualization" class="carousel-image">
+      </div>
+      <button class="carousel-button prev" onclick="changeAstroSlide(-1)">&#10094;</button>
+      <button class="carousel-button next" onclick="changeAstroSlide(1)">&#10095;</button>
+    </div>
+
     <article class="card">
-      <h4>Mock Constellation Conflict Design Project</h4>
-      <p>Analyzed satellite constellation conflict scenarios modeling offensive capabilities representing Madagascar. Evaluated single and multiple missile ballistic missile options with detailed budget analysis and strategic implications for space infrastructure defense.</p>
+      <h4>Project 2: Orbital Perturbations</h4>
+      <p>Orbital perturbations and advanced mission analysis. Includes trajectory optimization and sensitivity studies.</p>
       <a class="btn" href="assets/projects/AA456_Project2_TJT-compressed.pdf" target="_blank">Open Report</a>
     </article>
   </div>
-
   <div class="grid">
     <article class="card">
-      <h4>Satellite Constellation ASAT Evasion Analysis</h4>
-      <p>Developed defensive strategies for satellite constellation protection against anti-satellite threats. Analyzed repeatable maneuver patterns, warning time requirements, fuel optimization, and lifetime analysis for space infrastructure resilience.</p>
+      <h4>Project 3: Mission Design</h4>
+      <p>Space mission design and analysis. Application of orbital mechanics principles to complex mission scenarios.</p>
       <a class="btn" href="assets/projects/AA456_Project3_TJT.pdf" target="_blank">Open Report</a>
     </article>
 
     <article class="card">
-      <h4>Orbital Perturbations and Drag Analysis</h4>
-      <p>Comprehensive study comparing Keplerian two-body dynamics with J2 gravitational harmonics, atmospheric drag, and solar/lunar perturbations. Analyzed Low Earth Orbit and Geosynchronous Orbit propagation for accurate long-term predictions.</p>
+      <h4>Orbital Perturbations Analysis</h4>
+      <p>Advanced study of perturbation effects on satellite orbits. Mathematical modeling and computational analysis.</p>
       <a class="btn" href="assets/projects/PerturbationsHomework.pdf" target="_blank">Open Report</a>
     </article>
-  </div>
 
-  <div class="grid">
     <article class="card">
-      <h4>Two-Line Element Data Analysis Assignment</h4>
-      <p>Practical application of two-line element (TLE) data for orbital determination and analysis. Demonstrates computational methods for extracting orbital parameters and predicting satellite positions.</p>
-      <a class="btn" href="assets/projects/TLE_Homework_TJT.pdf" target="_blank">Open Report</a>
+      <h4>Orbital Mechanics Homework</h4>
+      <p>Two-line element data analysis and orbital determination. Practical application of astrodynamics concepts.</p>
+      <a class="btn" href="assets/projects/TLE_Homework_TJT.docx" target="_blank">Open Report</a>
     </article>
   </div>
 </div>
@@ -86,34 +82,38 @@
 <div class="project-group">
   <h3>Mechanical & Design Engineering</h3>
   <p>A collection of design projects spanning structural analysis, thermal systems, and mechanical component design. These projects demonstrate proficiency in engineering design methodology and analysis tools.</p>
-  
-  <div class="carousel-container">
-    <div class="carousel" id="mech-carousel">
-      <img src="assets/projects/ManufacturingIM.png" alt="Mechanical Design Visualization" class="carousel-image">
-    </div>
-    <button class="carousel-button prev" onclick="changeMechSlide(-1)">&#10094;</button>
-    <button class="carousel-button next" onclick="changeMechSlide(1)">&#10095;</button>
-  </div>
-
-  <div class="grid">
+  <div class="grid-with-carousel">
     <article class="card">
-      <h4>Wooden Frame Roof Design Optimization</h4>
-      <p>Finite element analysis of a two-story wooden cabin design with optimized roof pitch. Determined structural integrity requirements while maximizing habitable floor space, achieving a 36.5° pitch angle with 506 psi maximum bending stress and 84.5% floor availability.</p>
+      <h4>FEA Analysis Project</h4>
+      <p>Finite element analysis of structural components. Stress analysis, modal analysis, and optimization studies.</p>
       <a class="btn" href="assets/projects/FEA_Project_TJT.pdf" target="_blank">Open Report</a>
     </article>
 
+    <div class="carousel-container">
+      <div class="carousel" id="mech-carousel">
+        <img src="assets/projects/ManufacturingIM.png" alt="Mechanical Design Visualization" class="carousel-image">
+      </div>
+      <button class="carousel-button prev" onclick="changeMechSlide(-1)">&#10094;</button>
+      <button class="carousel-button next" onclick="changeMechSlide(1)">&#10095;</button>
+    </div>
+
     <article class="card">
       <h4>ME321 Design Project</h4>
-      <p>Sidewalk Surface Temperature Prediction App feasibility assessment using heat transfer analysis. Developed MATLAB model for radiation, convection, and conduction effects to calculate pet safety conditions in various climates using historical weather and soil data.</p>
+      <p>Mechanical design project involving component selection, analysis, and optimization for engineering applications.</p>
       <a class="btn" href="assets/projects/ME321 Design Project.pdf" target="_blank">Open Report</a>
     </article>
   </div>
-
   <div class="grid">
     <article class="card">
-      <h4>Satellite Boom Arm Control System Design</h4>
-      <p>Control system design for flexible satellite boom arm with sensitive imaging equipment. Developed 4th order control system to minimize boom wobbling during satellite repositioning maneuvers, achieving 15% overshoot limits using cold gas jet actuation.</p>
+      <h4>ME343 Thermal Systems Design</h4>
+      <p>Thermal systems design and analysis. Heat transfer, thermodynamic cycles, and energy system optimization.</p>
       <a class="btn" href="assets/projects/ME343DesignProjectTJT.pdf" target="_blank">Open Report</a>
+    </article>
+
+    <article class="card">
+      <h4>Aerodynamics Design Project</h4>
+      <p>Aircraft aerodynamic design and analysis. CFD simulations and wind tunnel testing methodologies.</p>
+      <a class="btn" href="assets/projects/FinalReport_TJT.pdf" target="_blank">Open Report</a>
     </article>
 
     <article class="card">
@@ -125,39 +125,28 @@
 </div>
 
 <div class="project-group">
-  <h3>Space Mission Analysis & Control</h3>
-  <p>Mission design and control-focused analyses spanning deep-space capture, insertion, and operational planning.</p>
-  
-  <div class="carousel-container">
-    <div class="carousel" id="control-carousel">
-      <img src="assets/projects/ManufacturingIM.png" alt="Control Systems Visualization 1" class="carousel-image">
-    </div>
-    <button class="carousel-button prev" onclick="changeSlide(-1)">&#10094;</button>
-    <button class="carousel-button next" onclick="changeSlide(1)">&#10095;</button>
-  </div>
-
-  <div class="grid">
+  <h3>Controls Systems Engineering</h3>
+  <p>In-depth studies of control systems design, analysis, and implementation. These projects cover both theoretical foundations and practical applications of feedback control.</p>
+  <div class="grid grid-with-carousel">
     <article class="card">
-      <h4>Molniya Orbit Maneuver Design</h4>
-      <p>Calculated launch azimuth angles and delta-V requirements for highly elliptical Molniya orbit insertion. Developed orbital transfer maneuver analysis using STK simulation and MATLAB calculations for 2431.93 m/s orbital insertion with ground track maintenance over designated regions.</p>
+      <h4>Project 1: Control Systems Design</h4>
+      <p>Control systems design and analysis. State-space methods, system modeling, and controller synthesis.</p>
       <a class="btn" href="assets/projects/ME356_Project1_TJT.pdf" target="_blank">Open Report</a>
     </article>
 
+    <div class="carousel-container">
+      <div class="carousel" id="control-carousel">
+        <img src="assets/projects/ManufacturingIM.png" alt="Control Systems Visualization 1" class="carousel-image">
+      </div>
+      <button class="carousel-button prev" onclick="changeSlide(-1)">&#10094;</button>
+      <button class="carousel-button next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
     <article class="card">
-      <h4>Earth to Saturn Mission Analysis</h4>
-      <p>Interplanetary trajectory design for Saturn transfer mission with launch vehicle selection and payload analysis. Determined delta-V requirements for Earth escape, planetary capture, and orbit circularization using Ames Trajectory Browser and MATLAB-based Patched Conic approximations.</p>
+      <h4>Project 2: Advanced Control Theory</h4>
+      <p>Advanced control theory application. Stability analysis, frequency response, and digital control implementation.</p>
       <a class="btn" href="assets/projects/ME356_Project2_TJT.pdf" target="_blank">Open Report</a>
     </article>
-  </div>
-
-  <div class="grid">
-    <article class="card">
-      <h4>Europa Clipper Analog Mission Analysis</h4>
-      <p>Performed orbital mechanics analysis of Jupiter orbit insertion and capture trajectory design for the Europa Clipper mission analog. Calculated Keplerian orbital elements and delta-V requirements for efficient deep space mission planning and fuel optimization.</p>
-      <a class="btn" href="assets/projects/FinalReport_TJT.pdf" target="_blank">Open Report</a>
-    </article>
-  </div>
-</div>
   </div>
 </div>
 
@@ -212,6 +201,11 @@ const astroSlides = [
   'assets/projects/AA456_Project1_TJT_p4_img0.png',
   'assets/projects/AA456_Project1_TJT_p5_img0.png',
   'assets/projects/AA456_Project1_TJT_p6_img0.png',
+  'assets/projects/AA456_Project1_TJT_p7_img0.png',
+  'assets/projects/AA456_Project1_TJT_p8_img0.png',
+  'assets/projects/AA456_Project1_TJT_p8_img1.png',
+  'assets/projects/AA456_Project1_TJT_p12_img0.png',
+  'assets/projects/AA456_Project1_TJT_p13_img0.png',
   'assets/projects/AA456_Project2_TJT-compressed_p1_img0.png',
   'assets/projects/AA456_Project2_TJT-compressed_p5_img3.png',
   'assets/projects/AA456_Project2_TJT-compressed_p5_img4.png',
@@ -222,17 +216,28 @@ const astroSlides = [
   'assets/projects/AA456_Project2_TJT-compressed_p11_img9.png',
   'assets/projects/AA456_Project2_TJT-compressed_p12_img10.png',
   'assets/projects/AA456_Project2_TJT-compressed_p13_img11.png',
+  'assets/projects/AA456_Project2_TJT-compressed_p14_img12.png',
   'assets/projects/AA456_Project3_TJT_p1_img0.png',
   'assets/projects/AA456_Project3_TJT_p3_img0.png',
   'assets/projects/AA456_Project3_TJT_p5_img0.png',
   'assets/projects/AA456_Project3_TJT_p6_img0.png',
+  'assets/projects/AA456_Project3_TJT_p7_img0.png',
+  'assets/projects/AA456_Project3_TJT_p8_img0.png',
   'assets/projects/AA456_Project3_TJT_p9_img0.png'
 ];
 
 const mechSlides = [
+  'assets/projects/FEA_Project_TJT_p1_img0.png',
   'assets/projects/FEA_Project_TJT_p1_img1.png',
+  'assets/projects/FEA_Project_TJT_p2_img0.png',
   'assets/projects/FEA_Project_TJT_p2_img1.png',
+  'assets/projects/ME321 Design Project_p11_img0.png',
+  'assets/projects/ME321 Design Project_p12_img0.png',
   'assets/projects/ME321 Design Project_p13_img0.png',
+  'assets/projects/ME321 Design Project_p13_img1.png',
+  'assets/projects/ME321 Design Project_p13_img2.png',
+  'assets/projects/ME321 Design Project_p14_img0.png',
+  'assets/projects/ME321 Design Project_p14_img1.png',
   'assets/projects/ME321 Design Project_p15_img0.png',
   'assets/projects/ME321 Design Project_p15_img1.png',
   'assets/projects/ME321 Design Project_p16_img0.png',
@@ -243,48 +248,39 @@ const mechSlides = [
   'assets/projects/ME321 Design Project_p19_img0.png',
   'assets/projects/ME321 Design Project_p20_img0.png',
   'assets/projects/ME321 Design Project_p20_img1.png',
-  'assets/projects/ME343DesignProjectTJT_p7_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p8_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p9_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p9_img1.png',
-  'assets/projects/ME343DesignProjectTJT_p11_img1.png',
-  'assets/projects/ME343DesignProjectTJT_p13_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p15_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p16_img1.png',
-  'assets/projects/ME343DesignProjectTJT_p17_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p18_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p19_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p19_img1.png',
-  'assets/projects/ME343DesignProjectTJT_p20_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p21_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p22_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p23_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p24_img0.png',
-  'assets/projects/ME343DesignProjectTJT_p25_img0.png',
+  'assets/projects/ME321 Design Project_p21_img0.png',
+  'assets/projects/ME321 Design Project_p21_img1.png',
+  'assets/projects/ME343DesignProjectTJT_p1_img0.png',
+  'assets/projects/ME343DesignProjectTJT_p2_img0.png',
+  'assets/projects/FinalReport_TJT_p2_img0.png',
   'assets/projects/FinalReport_TJT_p3_img0.png',
   'assets/projects/FinalReport_TJT_p4_img0.png',
   'assets/projects/FinalReport_TJT_p4_img1.png'
 ];
 
 const controlSlides = [
+  'assets/projects/ME356_Project1_TJT_p1_img0.png',
+  'assets/projects/ME356_Project1_TJT_p1_img1.png',
   'assets/projects/ME356_Project1_TJT_p2_img0.png',
   'assets/projects/ME356_Project1_TJT_p2_img1.png',
+  'assets/projects/ME356_Project1_TJT_p2_img2.png',
   'assets/projects/ME356_Project1_TJT_p3_img0.png',
   'assets/projects/ME356_Project1_TJT_p3_img1.png',
   'assets/projects/ME356_Project2_TJT_p1_img0.png',
+  'assets/projects/ME356_Project2_TJT_p2_img0.png',
   'assets/projects/ME356_Project2_TJT_p2_img1.png',
+  'assets/projects/ME356_Project2_TJT_p3_img0.png',
   'assets/projects/ME356_Project2_TJT_p4_img0.png',
   'assets/projects/ME356_Project2_TJT_p4_img1.png',
   'assets/projects/ME356_Project2_TJT_p5_img0.png',
-  'assets/projects/ME356_Project2_TJT_p5_img1.png'
+  'assets/projects/ME356_Project2_TJT_p5_img1.png',
+  'assets/projects/ME356_Project2_TJT_p6_img0.png'
 ];
   function showAstroSlide() {
     const carousel = document.getElementById('astro-carousel');
     if (!carousel) return;
     const img = carousel.querySelector('.carousel-image');
-    if (img) {
-      img.src = astroSlides[currentAstroSlide];
-    }
+    if (img) img.src = astroSlides[currentAstroSlide];
   }
 
   function changeAstroSlide(n) {
@@ -298,9 +294,7 @@ const controlSlides = [
     const carousel = document.getElementById('mech-carousel');
     if (!carousel) return;
     const img = carousel.querySelector('.carousel-image');
-    if (img) {
-      img.src = mechSlides[currentMechSlide];
-    }
+    if (img) img.src = mechSlides[currentMechSlide];
   }
 
   function changeMechSlide(n) {
@@ -314,9 +308,7 @@ const controlSlides = [
     const carousel = document.getElementById('control-carousel');
     if (!carousel) return;
     const img = carousel.querySelector('.carousel-image');
-    if (img) {
-      img.src = controlSlides[currentControlSlide];
-    }
+    if (img) img.src = controlSlides[currentControlSlide];
   }
 
   function changeSlide(n) {

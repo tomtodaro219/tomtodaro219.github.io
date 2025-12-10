@@ -111,6 +111,7 @@ h3 {
   color: var(--dark);
 }
 
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -120,6 +121,41 @@ h3 {
 
 #projects .grid {
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 900px) {
+  .grid,
+  #projects .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-with-carousel {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid,
+  #projects .grid,
+  .grid-with-carousel {
+    grid-template-columns: 1fr;
+  }
+  .card,
+  #projects .card {
+    height: auto;
+    min-height: 180px;
+    padding: 12px;
+  }
+  .carousel-container {
+    height: 220px;
+    min-height: 160px;
+    padding: 8px 0;
+  }
+  .wrap, .content-box {
+    padding: 10px;
+  }
+  h1, h2, h3, h4 {
+    font-size: 1.1em;
+  }
 }
 
 .card {
@@ -135,8 +171,16 @@ h3 {
   border: 2px solid var(--dark);
 }
 
+
+#projects .grid {
+  align-items: stretch;
+}
 #projects .card {
-  height: 280px;
+  height: auto;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card h4 {
@@ -222,6 +266,7 @@ h3 {
   margin: 12px 0;
 }
 
+
 .carousel-container {
   position: relative;
   background: var(--card);
@@ -233,7 +278,9 @@ h3 {
   align-items: center;
   justify-content: center;
   height: 400px;
+  max-width: 100%;
   margin-bottom: 20px;
+  transition: height 0.3s;
 }
 
 .carousel-image-label {
@@ -256,10 +303,11 @@ h3 {
   justify-content: center;
 }
 
+
 .carousel-image {
   max-width: 100%;
   max-height: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
   object-fit: contain;
 }
@@ -291,12 +339,39 @@ h3 {
   right: 10px;
 }
 
-@media(max-width:640px){
+
+@media (max-width: 900px) {
+  .wrap {
+    max-width: 98vw;
+    padding: 12px;
+  }
+  .header-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .header-contact {
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 640px) {
   .hero {
     flex-direction: column;
     align-items: flex-start;
   }
   .headshot {
-    width: 120px;
+    width: 100px;
+  }
+  .site-header h1 {
+    font-size: 22px;
+  }
+  .site-header .sub {
+    font-size: 14px;
+  }
+  .site-footer {
+    padding: 10px;
+    font-size: 13px;
   }
 }
